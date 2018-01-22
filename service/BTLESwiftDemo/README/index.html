@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<title>iOS开发之玩转蓝牙 和 MQTT 一个思路</title>
+	</head>
+<body>
+<h3>iOS开发之玩转蓝牙 和 MQTT 一个思路 </h3>
+
+<p><strong> 我对CoreBluetooth 的理解</strong></p>
+
+<p>首先感谢大神的分享 </p>
+
+<p><a href="https://www.jianshu.com/p/a831da0cfa0f">https://www.jianshu.com/p/a831da0cfa0f</a></p>
+
+<p>最近在做MQTT 集合起来 让我对蓝牙的开发有了更 明朗的理解</p>
+
+<figure><img src="DraggedImage.png"/></figure>
+
+<p>Peripheral作为Server，Central作为Client，Peripheral广播自己的Service和characteristic，Central订阅某一个具体的characteristic，Peripheral就和Central之间通过characteristic建立了一个双向的数据通道，整个模型非常简洁而且符合我们CS的架构体系。</p>
+
+<p>我结合MQTT 协议一起说吧re</p>
+
+<ol>
+	<li> 对外围设备的理解 Peripheral 它就相当于我们生活中的服务器 提供给你很多的服务 characteristic 就是具体的服务主题 特征</li>
+	<li> 对于中央设备 就是我们的客户端 只需要搜索到服务 连接服务
+
+		<p>然后订阅自己想要的主题 特征 并实现相应的代理方法 就可以了</p></li>
+</ol>
+
+</body>
+</html>
+

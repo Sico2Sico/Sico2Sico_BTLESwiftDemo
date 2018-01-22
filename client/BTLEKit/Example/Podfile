@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'BTLEKit_Example' do
+  pod 'BTLEKit', :path => '../'
+  pod  'AppUIKit', :path => '../../AppUIKit/AppUIKit.podspec'
+end

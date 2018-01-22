@@ -1,0 +1,6 @@
+framework module AppUIKit {
+  umbrella header "AppUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

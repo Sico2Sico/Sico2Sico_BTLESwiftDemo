@@ -1,0 +1,33 @@
+{
+  "name": "AppUIKit",
+  "version": "0.1.0",
+  "summary": "A short description of AppUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sico2Sico/AppUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sico2Sico": "wu.dz@aiiage.com"
+  },
+  "source": {
+    "git": "https://github.com/Sico2Sico/AppUIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AppUIKit/Classes/**/*",
+  "resource_bundles": {
+    "AppUIKit": [
+      "AppUIKit/Assets/**/*.xcassets",
+      "AppUIKit/Assets/**/*.json"
+    ]
+  },
+  "dependencies": {
+    "SnapKit": [
+      "~> 4.0.0"
+    ]
+  }
+}

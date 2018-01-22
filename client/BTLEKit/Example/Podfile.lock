@@ -1,0 +1,28 @@
+PODS:
+  - AppUIKit (0.1.0):
+    - SnapKit (~> 4.0.0)
+  - BTLEKit (0.1.0):
+    - AppUIKit
+    - CryptoSwift (~> 0.7.1)
+  - CryptoSwift (0.7.2)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - AppUIKit (from `../../AppUIKit/AppUIKit.podspec`)
+  - BTLEKit (from `../`)
+
+EXTERNAL SOURCES:
+  AppUIKit:
+    :path: ../../AppUIKit/AppUIKit.podspec
+  BTLEKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AppUIKit: e2bb47c5215ab363d9e2857158581e35a98f62c1
+  BTLEKit: 87781eafd7ee2f2c7887cd389481d736fd4ef1a9
+  CryptoSwift: cd2158be2bf639aabc63ec804707c7137c90157c
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: 6153731f7bffa73718a7c2bb34c19239478b3883
+
+COCOAPODS: 1.3.1

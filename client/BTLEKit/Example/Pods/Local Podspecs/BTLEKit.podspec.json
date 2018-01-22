@@ -1,0 +1,36 @@
+{
+  "name": "BTLEKit",
+  "version": "0.1.0",
+  "summary": "A short description of BTLEKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sico2Sico/BTLEKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sico2Sico": "wu.dz@aiiage.com"
+  },
+  "source": {
+    "git": "https://github.com/Sico2Sico/BTLEKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BTLEKit/Classes/**/*",
+  "resource_bundles": {
+    "BTLEKit": [
+      "BTLEKit/Assets/**/*.xcassets",
+      "BTLEKit/Assets/**/*.json"
+    ]
+  },
+  "dependencies": {
+    "AppUIKit": [
+
+    ],
+    "CryptoSwift": [
+      "~> 0.7.1"
+    ]
+  }
+}

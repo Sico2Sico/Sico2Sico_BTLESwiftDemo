@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078F611C2000B7D10057B5E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078F611B2000B7D10057B5E5 /* AppDelegate.swift */; };
+		078F61232000B7D10057B5E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078F61222000B7D10057B5E5 /* Assets.xcassets */; };
+		078F612E2000B8070057B5E5 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 078F612D2000B8070057B5E5 /* .swiftlint.yml */; };
+		078F61332000B90F0057B5E5 /* BTLEPeripheralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078F61322000B90F0057B5E5 /* BTLEPeripheralViewController.swift */; };
+		078F61372000C4790057B5E5 /* AppDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078F61362000C4790057B5E5 /* AppDefine.swift */; };
+		078F6141200352C40057B5E5 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 078F613E200352C40057B5E5 /* style.css */; };
+		078F6142200352C40057B5E5 /* DraggedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 078F613F200352C40057B5E5 /* DraggedImage.png */; };
+		078F6143200352C40057B5E5 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 078F6140200352C40057B5E5 /* index.html */; };
+		BDCD37E48B1C5B0D017BFB21 /* Pods_BTLESwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094D2E8F01B47319B1DE52F3 /* Pods_BTLESwiftDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		078F61182000B7D10057B5E5 /* BTLESwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTLESwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		078F611B2000B7D10057B5E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		078F61222000B7D10057B5E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		078F61272000B7D10057B5E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078F612D2000B8070057B5E5 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		078F61322000B90F0057B5E5 /* BTLEPeripheralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTLEPeripheralViewController.swift; sourceTree = "<group>"; };
+		078F61362000C4790057B5E5 /* AppDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDefine.swift; sourceTree = "<group>"; };
+		078F613E200352C40057B5E5 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		078F613F200352C40057B5E5 /* DraggedImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DraggedImage.png; sourceTree = "<group>"; };
+		078F6140200352C40057B5E5 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		094D2E8F01B47319B1DE52F3 /* Pods_BTLESwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTLESwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E21879840D8AE4A10E0E05A /* Pods-BTLESwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTLESwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTLESwiftDemo/Pods-BTLESwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A1F6E996F78587797D217F41 /* Pods-BTLESwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTLESwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTLESwiftDemo/Pods-BTLESwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		078F61152000B7D10057B5E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCD37E48B1C5B0D017BFB21 /* Pods_BTLESwiftDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078F610F2000B7D10057B5E5 = {
+			isa = PBXGroup;
+			children = (
+				078F613C200352C40057B5E5 /* README */,
+				078F612D2000B8070057B5E5 /* .swiftlint.yml */,
+				078F611A2000B7D10057B5E5 /* BTLESwiftDemo */,
+				078F61192000B7D10057B5E5 /* Products */,
+				0D099CE581508EA60F03C665 /* Pods */,
+				FB0B49FDD8B4D1E1CAAA9E9E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		078F61192000B7D10057B5E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				078F61182000B7D10057B5E5 /* BTLESwiftDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		078F611A2000B7D10057B5E5 /* BTLESwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				078F61362000C4790057B5E5 /* AppDefine.swift */,
+				078F611B2000B7D10057B5E5 /* AppDelegate.swift */,
+				078F61322000B90F0057B5E5 /* BTLEPeripheralViewController.swift */,
+				078F61222000B7D10057B5E5 /* Assets.xcassets */,
+				078F61272000B7D10057B5E5 /* Info.plist */,
+			);
+			path = BTLESwiftDemo;
+			sourceTree = "<group>";
+		};
+		078F613C200352C40057B5E5 /* README */ = {
+			isa = PBXGroup;
+			children = (
+				078F613D200352C40057B5E5 /* css */,
+				078F613F200352C40057B5E5 /* DraggedImage.png */,
+				078F6140200352C40057B5E5 /* index.html */,
+			);
+			path = README;
+			sourceTree = "<group>";
+		};
+		078F613D200352C40057B5E5 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				078F613E200352C40057B5E5 /* style.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		0D099CE581508EA60F03C665 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1F6E996F78587797D217F41 /* Pods-BTLESwiftDemo.debug.xcconfig */,
+				2E21879840D8AE4A10E0E05A /* Pods-BTLESwiftDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB0B49FDD8B4D1E1CAAA9E9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				094D2E8F01B47319B1DE52F3 /* Pods_BTLESwiftDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		078F61172000B7D10057B5E5 /* BTLESwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078F612A2000B7D10057B5E5 /* Build configuration list for PBXNativeTarget "BTLESwiftDemo" */;
+			buildPhases = (
+				3D8DD175AC658F75E7441FB8 /* [CP] Check Pods Manifest.lock */,
+				078F61142000B7D10057B5E5 /* Sources */,
+				078F61152000B7D10057B5E5 /* Frameworks */,
+				078F61162000B7D10057B5E5 /* Resources */,
+				078F612F2000B82B0057B5E5 /* ShellScript */,
+				E7940B11E58C361FC4570A1A /* [CP] Embed Pods Frameworks */,
+				909CAEBDBAD7CD97B8694F7B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTLESwiftDemo;
+			productName = BTLESwiftDemo;
+			productReference = 078F61182000B7D10057B5E5 /* BTLESwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		078F61102000B7D10057B5E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com.aiiage.www;
+				TargetAttributes = {
+					078F61172000B7D10057B5E5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 078F61132000B7D10057B5E5 /* Build configuration list for PBXProject "BTLESwiftDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 078F610F2000B7D10057B5E5;
+			productRefGroup = 078F61192000B7D10057B5E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				078F61172000B7D10057B5E5 /* BTLESwiftDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		078F61162000B7D10057B5E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078F6143200352C40057B5E5 /* index.html in Resources */,
+				078F612E2000B8070057B5E5 /* .swiftlint.yml in Resources */,
+				078F6142200352C40057B5E5 /* DraggedImage.png in Resources */,
+				078F6141200352C40057B5E5 /* style.css in Resources */,
+				078F61232000B7D10057B5E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		078F612F2000B82B0057B5E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		3D8DD175AC658F75E7441FB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BTLESwiftDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		909CAEBDBAD7CD97B8694F7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTLESwiftDemo/Pods-BTLESwiftDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7940B11E58C361FC4570A1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BTLESwiftDemo/Pods-BTLESwiftDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTLESwiftDemo/Pods-BTLESwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		078F61142000B7D10057B5E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078F61372000C4790057B5E5 /* AppDefine.swift in Sources */,
+				078F611C2000B7D10057B5E5 /* AppDelegate.swift in Sources */,
+				078F61332000B90F0057B5E5 /* BTLEPeripheralViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		078F61282000B7D10057B5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos11.2;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		078F61292000B7D10057B5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos11.2;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		078F612B2000B7D10057B5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F6E996F78587797D217F41 /* Pods-BTLESwiftDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AC6X4W7N6Y;
+				INFOPLIST_FILE = BTLESwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiiage.languageSetModel.BTLESwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.2;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		078F612C2000B7D10057B5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E21879840D8AE4A10E0E05A /* Pods-BTLESwiftDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AC6X4W7N6Y;
+				INFOPLIST_FILE = BTLESwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiiage.languageSetModel.BTLESwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.2;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		078F61132000B7D10057B5E5 /* Build configuration list for PBXProject "BTLESwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078F61282000B7D10057B5E5 /* Debug */,
+				078F61292000B7D10057B5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		078F612A2000B7D10057B5E5 /* Build configuration list for PBXNativeTarget "BTLESwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078F612B2000B7D10057B5E5 /* Debug */,
+				078F612C2000B7D10057B5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 078F61102000B7D10057B5E5 /* Project object */;
+}
